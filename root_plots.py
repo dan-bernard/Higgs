@@ -40,8 +40,8 @@ for channel in Channels:
     for event in Channel:
         #if (not event.trigP):
             #continue
-        if counter > 50000:
-            break
+        #if counter > 50000:
+         #   break
         Photons = []
         if Channel.photon_n != 2:
             continue
@@ -152,10 +152,3 @@ drawallhist('photon_pt', photonpt)
 drawallhist('eta', eta)
 drawallhist('invariant_mass', invariantmass)
 drawallhist('Tinvariant', TInvariant)
-
-
-
-
-
-
-
